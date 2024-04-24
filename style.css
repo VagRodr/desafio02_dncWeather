@@ -98,6 +98,18 @@ h3 {
     margin: 200px 350px 10px 400px ;
 }
 
+.prev-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0C70F2;
+    border-radius: 20px;
+    width: 650px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 20px 350px 10px 350px;
+}
+
 .text-footer {
     font-weight: bolder;
     justify-content: center;
@@ -115,16 +127,6 @@ h3 {
     margin: 100px 350px 10px 400px ;
 }
 
-
-.temp-footer {
-    width: 660px;
-    height: 45px;
-    margin-left: 350px;
-    margin-top: 10px;
-    border: 1px solid #0C70F2;
-    border-radius: 20px;
-    text-align: center;
-}
 
 .footer {
     background-color: #0C70F2;

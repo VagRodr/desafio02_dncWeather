@@ -90,10 +90,14 @@
         <div><img class="img-footer" src="imagens/nuvensFooter.svg" alt="ERRO"></div>
       </div>
 
-      <form>
-        <input id="previsao" type="text" readonly  class="temp-footer">
-      </form>
-      
+      <div class="prev-table">
+        <table id="previsao" >
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+
       <footer class="footer">
         <p>Termo de Uso | Política de Privacidade</p>
       </footer>
@@ -102,7 +106,10 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
       <script src="cep.js"></script>
       <script src="previsao.js"></script>
+      <script>
+        document.getElementById('form').addEventListener('submit', function(event) {
+          event.preventDefault();
+        });
+      </script>
   </body>
 </html>
-
-
